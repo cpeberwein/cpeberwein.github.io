@@ -52,6 +52,7 @@ p {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 #content .container {
     max-width: initial;
@@ -123,6 +124,9 @@ background-color: lightgray;
 }
 
 /*
+.zebra:nth-child(odd) {
+    background-color: rgb(206, 97, 97);
+    }
 .zebra {
     margin: auto;
 }
